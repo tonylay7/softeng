@@ -154,12 +154,12 @@ Help is also available through the Piazza discussion forum (ref:piazzaforum)
 
 ### Step One: Start Eclipse {#starteclipse}
 
-First we need to run Eclipse (or the IDE you have chosen to use for this activity, if using a different one).  If working from home, you should use the VM provided by the department.
+First we need to run Eclipse (or the IDE you have chosen to use for this activity, if using a different one).
 
 Start (ref:ideversion).  From the command line, this is done by typing:
 
 ````md
-/opt/eclipse-2020-03/eclipse
+/opt/eclipse-2022-12/eclipse
 ````
 
 You can also find it in the `Applications` menu, under `Programming`.
@@ -202,7 +202,7 @@ Once the URI is entered, Eclipse will fill the other fields for you.  (If this d
 Click `Next`.  Eclipse will connect to GitLab to authenticate your connection.  Since we are using the HTTPS access protocol here, you will need to enter your University username and password at this point.  (You will also be given an option to save the details, so you don't need to enter them again.)
 
 ::: {.rmdnote}
-**An Aside on Protocols:** GitLab can authenticate through two protocols, HTTPS and SSH.  In previous academic years, we've found the HTTPS protocol to be most stable on our lab machines, but at present we expect both protocols to work well for our students on the VM you are asked to use for coursework, or from your own machine directly, in Eclipse or with other IDEs.
+**An Aside on Protocols:** GitLab can authenticate through two protocols, HTTPS and SSH.  In previous academic years, we've found the HTTPS protocol to be most stable on our lab machines, but at present we expect both protocols to work well from your own machine directly, in Eclipse or with other IDEs.
 
 If you have set up an SSH key for the machine you are using and have uploaded it to your GitLab account, and want to use the SSH protocol for this coursework, just copy and paste the SSH URI for your repository into the `Repository URI` field in place of the HTTPS URI.  Note that you *must* also tick the checkbox labelled `Accept and store this key, and continue connecting?` for the SSH connection to work.
 
